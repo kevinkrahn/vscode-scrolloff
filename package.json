@@ -3,7 +3,7 @@
     "displayName": "Scrolloff",
     "description": "Vim-style scrolloff. Keep lines visible above and below your cursor.",
     "version": "0.0.1",
-    "publisher": "TickleForce",
+    "publisher": "tickleforce",
     "keywords": ["vim", "scrolloff", "cursor", "margin", "scroll"],
     "icon": "icon.svg",
     "license": "SEE LICENSE IN LICENSE.txt",

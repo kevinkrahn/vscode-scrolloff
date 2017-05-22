@@ -6,9 +6,10 @@
     "publisher": "TickleForce",
     "keywords": ["vim", "scrolloff", "cursor", "margin", "scroll"],
     "icon": "icon.svg",
+    "license": "SEE LICENSE IN LICENSE.txt",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/TickleForce/vscode-scrolloff.git"
     },
     "engines": {
         "vscode": "^1.12.0"

@@ -17,7 +17,7 @@ class ScrollOff {
     }
 
     onCursorMove(e: vscode.TextEditorSelectionChangeEvent) {
-        if(e.kind !== vscode.TextEditorSelectionChangeKind.Mouse) {
+        if(e.textEditor.selections.length === 1 && e.kind !== vscode.TextEditorSelectionChangeKind.Mouse) {
             const config = vscode.workspace.getConfiguration("scrolloff");
             const alwaysCenter: boolean = config.get("alwaysCenter", false);
             const scrolloff: number = config.get("scrolloff", 15);

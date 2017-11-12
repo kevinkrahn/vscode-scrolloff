@@ -28,10 +28,10 @@ class ScrollOff {
                         vscode.TextEditorRevealType.InCenter);
                 }
                 else {
-                    e.textEditor.revealRange(new vscode.Range(
-                        selection.active.line - scrolloff, 0,
-                        selection.active.line + scrolloff, 0),
-                        vscode.TextEditorRevealType.Default);
+                    const range = new vscode.Range(
+                        Math.max(selection.active.line - scrolloff, 0), selection.start.character,
+                        selection.active.line + scrolloff, selection.end.character);
+                    e.textEditor.revealRange(range, vscode.TextEditorRevealType.Default);
                 }
             }
         }

@@ -5,7 +5,7 @@
     "version": "0.0.2",
     "publisher": "tickleforce",
     "keywords": ["vim", "scrolloff", "cursor", "margin", "scroll"],
-    "icon": "icon.svg",
+    "icon": "icon.png",
     "license": "SEE LICENSE IN LICENSE.txt",
     "repository": {
         "type": "git",
